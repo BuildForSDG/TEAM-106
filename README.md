@@ -40,7 +40,7 @@ You should have **Python 3.5+** and **git** installed.
     cd python-starter
     ``
 
-3. Install poetry, a dependecy manager for python.
+3. Install poetry (for more info: visit <a href="https://python-poetry.org/docs/cli/" target="_blank">poetry official website</a>), a dependecy manager for python.
 
     On windows, you will need powershell to install it:
 
@@ -79,10 +79,26 @@ You should have **Python 3.5+** and **git** installed.
 
     This will install pytest for running tests and flake8, linter for your project.
 
-#### To Note
-`src/app.py` is the entry to the project and source code should go into the `src` folder.
 
-All tests should be written in the `tests` folder. tests/test_src.py is a sample test file that shows how tests should like. Feel free to delete it.
+5. if you are working on frontend, to test your react app run:
+    ``
+    yarn start
+    `` 
+6. else if you are working on backend, to test your django app integration with frontend, run:
+    First generate a build by running:
+    ``
+    yarn build
+    `` 
+    Next, activate the virtualenv by running:
+    ``
+    poetry shell
+    ``
+    And finally,
+    ``
+    poetry run python manage.py runserver
+    `` 
+    And that should be all.
+
 
 #### Hints
 
