@@ -76,6 +76,7 @@ You should have **Python 3.5+** and **git** installed.
     ``
     poetry install
     ``
+    &nbsp;
 
     This will install pytest for running tests and flake8, linter for your project.
 
@@ -84,19 +85,27 @@ You should have **Python 3.5+** and **git** installed.
     ``
     yarn start
     `` 
+
 6. else if you are working on backend, to test your django app integration with frontend, run:
+    &nbsp;
     First generate a build by running:
     ``
     yarn build
     `` 
+    &nbsp;
+
     Next, activate the virtualenv by running:
     ``
     poetry shell
     ``
+    &nbsp;
+
     And finally,
     ``
     poetry run python manage.py runserver
     `` 
+    &nbsp;
+    
     And that should be all.
 
 
