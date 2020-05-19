@@ -3,6 +3,30 @@ A one-liner phrase describing this project or app
 [![Codacy Badge](https://img.shields.io/badge/Code%20Quality-D-red)](https://img.shields.io/badge/Code%20Quality-D-red)
 
 
+## To-do
+&nbsp;
+
+<ul>
+    <li class="list">Add Header</li>
+    <li>Add About Us</li>
+    <li>Add Overall report</li>
+    <li>
+        Add breakdown of Labour Fource
+        <ul>
+            <li>
+                <input type="checkbox"  name="vehicle1" value="Add Countries">
+            </li>
+            <li>Add Skillset</li>
+            <li>Add CS Background</li>
+            <li>Add Years of Experience</li>
+            <li>Add Employment Status</li>
+        </ul>
+    </li>
+    <li>Add others</li>
+    <li>Add Footer</li>
+</ul>
+
+
 ## About
 
 What is this project about. Ok to enrich here or the section above it with an image. 
