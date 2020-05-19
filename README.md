@@ -7,23 +7,21 @@ A one-liner phrase describing this project or app
 &nbsp;
 
 <ul>
-    <li class="list">Add Header</li>
-    <li>Add About Us</li>
-    <li>Add Overall report</li>
+    <li> - [ ] Add Header</li>
+    <li> - [ ] Add About Us</li>
+    <li> - [ ] Add Overall report</li>
     <li>
         Add breakdown of Labour Fource
         <ul>
-            <li>
-                <input type="checkbox"  name="vehicle1" value="Add Countries">
-            </li>
-            <li>Add Skillset</li>
-            <li>Add CS Background</li>
-            <li>Add Years of Experience</li>
-            <li>Add Employment Status</li>
+            <li> - [ ] Add Countries </li>
+            <li> - [ ] Add Skillset</li>
+            <li> - [ ] Add CS Background</li>
+            <li> - [ ] Add Years of Experience</li>
+            <li> - [ ] Add Employment Status</li>
         </ul>
     </li>
-    <li>Add others</li>
-    <li>Add Footer</li>
+    <li> - [ ] Add others</li>
+    <li> - [ ] Add Footer</li>
 </ul>
 
 
