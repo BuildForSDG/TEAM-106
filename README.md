@@ -7,11 +7,10 @@ A one-liner phrase describing this project or app
 &nbsp;
 
 <ul>
-    <li> - [ ] Add Header</li>
+    <li> - [x] Add Header</li>
     <li> - [ ] Add About Us</li>
     <li> - [ ] Add Overall report</li>
-    <li>
-        Add breakdown of Labour Fource
+    <li> - [ ] Add breakdown of Labour Fource
         <ul>
             <li> - [ ] Add Countries </li>
             <li> - [ ] Add Skillset</li>
