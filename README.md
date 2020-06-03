@@ -76,7 +76,7 @@ You should have **Python 3.5+** and **git** installed.
     ``
     poetry install
     ``
-
+    &nbsp
     This will install pytest for running tests and flake8, linter for your project.
 
 #### To Note
