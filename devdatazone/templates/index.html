@@ -1,7 +1,6 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
-
 {% load static %}
+<html class="no-js" lang="zxx">
 
 <head>
     <meta charset="utf-8">
@@ -52,24 +51,24 @@
                             <div class="main-menu  d-none d-lg-block text-center">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a class="active" href="/index.html">home</a></li>
-                                        <li><a href="/service.html">services</a></li>
+                                        <li><a class="active" href="{% url 'devdata:index' %}">home</a></li>
+                                        <li><a href="{% url 'devdata:service' %}">services</a></li>
                                         <!-- <li><a href="Portfolio.html">Portfolio</a></li> -->
                                         <li><a href="#">pages <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
-                                                <li><a href="portfolio_details.html">Portfolio details</a></li>
-                                                <li><a href="/about.html">about</a></li>
-                                                <li><a href="/elements.html">elements</a></li>
+                                                <li><a href="{% url 'devdata:portfolioPage' %}">Portfolio details</a></li>
+                                                <li><a href="{% url 'devdata:about' %}">about</a></li>
+                                                <li><a href="{% url 'devdata:elements' %}">elements</a></li>
                                             </ul>
                                         </li>
 
                                         <li><a href="#">blog <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
-                                                <li><a href="/blog.html">blog</a></li>
-                                                <li><a href="/single-blog.html">single-blog</a></li>
+                                                <li><a href="{% url 'devdata:blog' %}">blog</a></li>
+                                                <li><a href="{% url 'devdata:single_blog' %}">single-blog</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="/contact.html">Contact</a></li>
+                                        <li><a href="{% url 'devdata:contactPage' %}">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -89,6 +88,8 @@
     </header>
     <!-- header-end -->
 
+<!--    everrything outside this block is inherited by all pages-->
+    {% block body_block %}
     <!-- slider_area_start -->
     <div class="slider_area">
         <div class="single_slider  d-flex align-items-center slider_bg_1 overlay">
@@ -606,7 +607,7 @@
             </div>
         </div>
     </div>
-
+    {% endblock %}
 
     <!-- footer start -->
     <footer class="footer">
