@@ -1,6 +1,7 @@
 import pandas as pd
 import re
 
+
 base =  pd.read_csv('stackGreat.csv', header=0, delimiter='|')
 reputation = base['Reputation']
 answers = base['Answers']

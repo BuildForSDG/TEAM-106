@@ -1,0 +1,1 @@
+web: gunicorn devdatazone.wsgi --log-file -
