@@ -1,0 +1,48 @@
+About:
+
+DevData is a solution that provides high quality, timely, relevant and reliable data about software 
+developers around the globe, country by country, state by state. We seek to provide comprehensive 
+statistics and analysis that give relevant insights about current state of software developers in 
+all locations around the globe in order to aid governments and concerned bodies in making plans
+and policies that benefits societies. We also seek to provide information about relevant opportunities 
+in the software development field. A future we forsee is a point where we wouldn't just provide these 
+insights for software development field but for all fields in the world. 
+
+
+Stack_Overflow:
+
+One of the largest community of developers around the globe, Stack Overflow, with over 19.6 million 
+questions asked, and more than 16 million answered, stack overflow has positioned itself over the years, 
+as an indespensible learning tool for developers around the globe, especially beginners. Unsurprisingly,
+current data (of about 14,000 top developers) shows most stack overflow developers are from the United 
+states of America, coming up with the best ratings in overall. However, looking at developers at the 
+level of continents, Europe seems to have the largest share, followed by North America, Asia, Oceania, 
+Africa, South America. **continents_stats graph**
+
+On digging deeper into respective continents, world powers seems to the hub for developers around the 
+globe. The US alone has more than 1,500 developers out of the 14,000 top dvelopers. Fellow North American 
+country, Canada has more than 600. That means the US and Canada alone has about 15% of world's top 14,000 
+developers. How amazing that is. Only India has more developers here than Canada with close to 800 top 
+developers. More than a hundred countries has below 50 with around 20 having a value less than 5. Below 
+are graphs that gives more insights on developers in all continents. The order is in sorted alphabetic from
+with zero(0) representing the first country in each continent in the alphabetical order and like that till
+the last country. **copy of countries by continents**, **all continental graphs**
+
+Talking about popular language among this top developers, Python is undoubtedly the champion and the next 
+is java, followed by others. **Stack_language_stats graph**
+
+Out of the over 16 million answers given so far on stack overflow, these top 14,000 have given a whooping amount
+very close to 6 million while there are over 12 million users of stack overflow. Seemingly, top 1 million 
+developers on stack overflow would be the sole contributor of these answers, likely having more than 90% of these
+answers. The question is, how much contribution would the other 11 million developers currently on stack overflow 
+make? This question seemingly provide reasons of why we have more than 2.5 million questions unanswered on stack 
+overflow. In fact, at the first quater of this year, the number of unanswered questions stood at around 1.9 million.
+But now, we're having more than 2.5 million, that's a tremendous growth and if this growth continues, stack overflow
+may begin to fail in it's purpose. 
+
+The ever changing and rapidly evolving situation of today's technologies in software development leaves quite a numver
+of answers on stack overflow obsolete, whereas more people try to get into software development day by day. Not finding 
+answers to bothering questions leaves learners fustrated and could slow the rate of learning, if not crush it. Experienced
+developers perhaps, need to pay more attention on giving back to communities like stack overflow to better the future of
+upcoming beginners.
+
