@@ -8,19 +8,19 @@ A one-liner phrase describing this project or app
 
 <ul>
     <li> - [x] Add Header</li>
-    <li> - [ ] Add About Us</li>
-    <li> - [ ] Add Overall report</li>
-    <li> - [ ] Add breakdown of Labour Fource
+    <li> - [x] Add About Us</li>
+    <li> - [x] Add Overall report</li>
+    <li> - [x] Add breakdown of Labour Fource
         <ul>
-            <li> - [ ] Add Countries </li>
-            <li> - [ ] Add Skillset</li>
+            <li> - [x] Add Countries </li>
+            <li> - [x] Add Skillset</li>
             <li> - [ ] Add CS Background</li>
-            <li> - [ ] Add Years of Experience</li>
-            <li> - [ ] Add Employment Status</li>
+            <li> - [x] Add Years of Experience</li>
+            <li> - [x] Add Employment Status</li>
         </ul>
     </li>
     <li> - [ ] Add others</li>
-    <li> - [ ] Add Footer</li>
+    <li> - [x] Add Footer</li>
 </ul>
 
 
@@ -99,6 +99,7 @@ You should have **Python 3.5+** and **git** installed.
     ``
     &nbsp;
 
+    &nbsp
     This will install pytest for running tests and flake8, linter for your project.
 
 
