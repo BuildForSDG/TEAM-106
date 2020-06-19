@@ -3,6 +3,27 @@ A one-liner phrase describing this project or app
 [![Codacy Badge](https://img.shields.io/badge/Code%20Quality-D-red)](https://img.shields.io/badge/Code%20Quality-D-red)
 
 
+## To-do
+&nbsp;
+
+<ul>
+    <li> - [x] Add Header</li>
+    <li> - [ ] Add About Us</li>
+    <li> - [ ] Add Overall report</li>
+    <li> - [ ] Add breakdown of Labour Fource
+        <ul>
+            <li> - [ ] Add Countries </li>
+            <li> - [ ] Add Skillset</li>
+            <li> - [ ] Add CS Background</li>
+            <li> - [ ] Add Years of Experience</li>
+            <li> - [ ] Add Employment Status</li>
+        </ul>
+    </li>
+    <li> - [ ] Add others</li>
+    <li> - [ ] Add Footer</li>
+</ul>
+
+
 ## About
 
 What is this project about. Ok to enrich here or the section above it with an image. 
@@ -76,6 +97,7 @@ You should have **Python 3.5+** and **git** installed.
     ``
     poetry install
     ``
+    &nbsp;
 
     This will install pytest for running tests and flake8, linter for your project.
 
@@ -84,19 +106,27 @@ You should have **Python 3.5+** and **git** installed.
     ``
     yarn start
     `` 
+
 6. else if you are working on backend, to test your django app integration with frontend, run:
+    &nbsp;
     First generate a build by running:
     ``
     yarn build
     `` 
+    &nbsp;
+
     Next, activate the virtualenv by running:
     ``
     poetry shell
     ``
+    &nbsp;
+
     And finally,
     ``
     poetry run python manage.py runserver
     `` 
+    &nbsp;
+    
     And that should be all.
 
 

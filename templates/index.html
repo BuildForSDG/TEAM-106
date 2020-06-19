@@ -1,0 +1,758 @@
+<!doctype html>
+{% load static %}
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Dev Data</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/themify-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
+    <link rel="stylesheet" href="{% static 'css/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'css/gijgo.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/slick.css' %}">
+    <link rel="stylesheet" href="{% static 'css/slicknav.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center no-gutters">
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo-img">
+                                <a href="#">
+                                    <img style="height: 45px; width: inherit;" src="{% static 'img/build4sdg/logo.JPG' %}" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-8">
+                            <div class="main-menu  d-none d-lg-block text-center">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a class="active" href="{% url 'devdata:index' %}"></a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 d-none d-lg-block">
+                            <div class="log_chat_area d-flex align-items-end">
+                                <a href="#getInTouch" data-scroll-nav="0" class="say_hi">Contact</a>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+
+<!--    everrything outside this block is inherited by all pages-->
+    {% block body_block %}
+    <!-- slider_area_start -->
+    <div class="slider_area">
+        <div class="single_slider  d-flex align-items-center slider_bg_1 overlay">
+            <div class="container">
+                <div class="row align-items-center justify-content-start">
+                    <div class="col-lg-10 col-md-10">
+                        <div class="slider_text">
+                            <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">
+                               Welcome to DevData
+                            </h3>
+                            <h4 style="color: white;" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">Real Time Developer Data Across the Globe</h4>
+                            <a class="boxed-btn3 wow fadeInLeft"  data-wow-duration="1s" data-wow-delay=".2s" href="#aboutus...">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider_area_end -->
+
+    <!-- about us -->
+    <div class="about_area">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="about_info">
+                        <div class="section_title white_text">
+                            <h3 id="aboutus..." class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">We Provide Real Insight to Developer Data </h3>
+                            <p style="color:white">
+                                DevData is a solution that provides high quality, timely, relevant and reliable data about software
+                                developers around the globe, country by country, state by state. We seek to provide comprehensive 
+                                statistics and analysis that give relevant insights about current state of software developers in 
+                                all locations around the globe in order to aid governments and concerned bodies in making plans
+                                and policies that benefits societies. We also seek to provide information about relevant opportunities 
+                                in the software development field. A future we forsee is a point where we wouldn't just provide these 
+                                insights for software development field but for all fields in the world.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about us end -->
+    <!-- overall report -->
+    <div class="how_we_work_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="work_info">
+                        <div class="section_title">
+                            <h3 style="color: rgb(102, 51, 0)" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Overall Report</h3>
+                        </div>
+                        <div class="video_watch d-flex align-items-center">
+                            <div class="play_btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                                <a href="https://www.youtube.com/watch?v=D7tF-cY2M9o" class="video_icon popup-video"> <i class="fa fa-download"></i> </a>
+                            </div>
+                           <span style="color: rgb(102, 51, 0)" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s"> Download Report</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- overall report end -->
+
+    <!-- Breakdown  -->
+    <div style="padding-top:50px; padding-buttom:100px" class="service_area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center mb-70">
+                        <h3 style="color: rgb(102, 51, 0)" class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">Breakdown of top 14 Stack Overflow developers' statistics.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-md-4">
+                    <div style="background-color: rgb(240, 240, 240)"class="single_service text-center wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".4s">
+                        <div class="icon">
+                            <img src="{% static 'img/svg_icon/1.svg" alt="">
+                        </div>
+                        <a href="#continents"><h3 style="color: rgb(102, 51, 0)">By Continents</h3></a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div style="background-color: rgb(240, 240, 240)" class="single_service text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                        <div class="icon">
+                            <img src="{% static 'img/svg_icon/2.svg" alt="">
+                        </div>
+                        <a href="#languages"><h3 style="color: rgb(102, 51, 0)">By Languages</h3></a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div style="background-color: rgb(240, 240, 240); color: rgb(102, 51, 0)" class="single_service text-center wow fadeInRight" data-wow-duration="1.2s" data-wow-delay=".4s">
+                        <div class="icon">
+                            <img src="{% static 'img/svg_icon/3.svg" alt="">
+                        </div>
+                        <a href="#experience"><h3 style="color: rgb(102, 51, 0)">By Experience</h3>
+                    </div>
+                </div>
+            </div>
+           <div style="text-align: center" ><a href="#" class="boxed-btn3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">More Breakdowns</a></div>
+        </div>
+    </div>
+
+    <div style="padding:50px" class="service_area">
+        <div style="background-color: rgb(240, 240, 240)" class="container">
+            <div class="row justify-content-center">
+                <div style="height:80px" class="col-lg-6">
+                    <div class="section_title text-center mb-90">
+                        <h3 style="color: black; padding-top:15px" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" id="getInTouch">The Stack Overflow Report</h3>
+                    </div>
+                </div>
+            </div>
+            <div style="padding-left:30px; padding-top:50px; padding-right:30px; padding-buttom:20px; font-weight:bold" class="container">
+                <div class="row align-items-center justify-content-start">
+                    <p style="color:black; font-size:20px" class="wow fadeInUp"> One of the largest community of developers around the globe, Stack Overflow, with over 19.6 million 
+                        questions asked, and more than 16 million answered, stack overflow has positioned itself over the years, 
+                        as an indespensible learning tool for developers around the globe, especially beginners. Unsurprisingly,
+                        current data (of about 14,000 top developers) shows most stack overflow developers are from the United 
+                        states of America, coming up with the best ratings in overall. However, looking at developers at the 
+                        level of continents, Europe seems to have the largest share, followed by North America, Asia, Oceania, 
+                        Africa, South America.
+                    </p>
+                </div>
+            </div>
+            <div style="padding:20px" class="container">
+                <div class="row justify-content-center">
+                    <img id="continents" src="{%static 'img/graphs/stat_continents.png'%}" alt="">
+                </div>
+            </div>
+            <div style="padding-left:30px; padding-top:50px; padding-right:30px; padding-buttom:40px; font-weight:bold" class="container">
+                <div class="row align-items-center justify-content-start">
+                    <p style="color:black; font-size:20px" class="wow fadeInUp"> On digging deeper into respective continents, world powers seems to be the hub for developers around the 
+                        globe. The US alone has more than 1,500 developers out of the 14,000 top dvelopers. Fellow North American 
+                        country, Canada has more than 600. That means the US and Canada alone has about 15% of world's top 14,000 
+                        developers. How amazing that is. Only India has more developers here than Canada with close to 800 top 
+                        developers. More than a hundred countries has below 50 with around 20 having a value less than 5. Below 
+                        are graphs that gives more insights on developers in all continents. The order is in sorted alphabetic from
+                        with zero(0) representing the first country in each continent in the alphabetical order and like that till
+                        the last country.
+                    </p>
+                </div>
+            </div>
+
+            <div style="padding:20px" class="container">
+                <div class="row justify-content-center">
+                   <img style="height:50%"src="{%static 'img/graphs/stat_africa.png'%}" alt="">
+                </div>
+            </div>
+            
+            <div style="padding:20px" class="container">
+                <div class="row justify-content-center">
+                    <img src="{%static 'img/graphs/stat_asia.png'%}" alt="">
+                </div>
+            </div>
+
+            <div style="padding:20px" class="container">
+                <div class="row justify-content-center">
+                    <img src="{%static 'img/graphs/stat_europe.png'%}" alt="">
+                </div>
+            </div>
+
+            <div style="padding:20px" class="container">
+                <div class="row justify-content-center">
+                    <img src="{%static 'img/graphs/stat_north_america.png'%}" alt="">
+                </div>
+            </div>
+
+            <div style="padding:20px" class="container">
+                <div class="row justify-content-center">
+                    <img src="{%static 'img/graphs/stat_oceania.png'%}" alt="">
+                </div>
+            </div>
+
+            <div style="padding:20px" class="container">
+                <div class="row justify-content-center">
+                    <img src="{%static 'img/graphs/stat_south_america.png'%}" alt="">
+                </div>
+            </div>
+
+            <div style="padding-left:30px; padding-top:50px; padding-right:30px; padding-buttom:40px; font-weight:bold" class="container">
+                <div class="row align-items-center justify-content-start">
+                    <p style="color:black; font-size:20px" class="wow fadeInUp"> 
+                        Talking about popular language among this top developers, Python is undoubtedly the champion and the next 
+                        is java, followed by others.
+                    </p>
+                </div>
+            </div>
+
+            <div style="padding:20px" class="container">
+                <div class="row justify-content-center">
+                    <img id="languages" src="{%static 'img/graphs/stack_language_stat.png'%}" alt="">
+                </div>
+            </div>
+
+            <div style="padding-left:30px; padding-top:50px; padding-right:30px; padding-buttom:40px; font-weight:bold" class="container">
+                <div class="row align-items-center justify-content-start">
+                    <p style="color:black; font-size:20px" class="wow fadeInUp"> 
+                        Out of the over 16 million answers given so far on stack overflow, these top 14,000 have given a whooping amount
+                        very close to 6 million while there are over 12 million users of stack overflow. Seemingly, top 1 million 
+                        developers on stack overflow would be the sole contributor of these answers, likely having more than 90% of these
+                        answers. The question is, how much contribution would the other 11 million developers currently on stack overflow 
+                        make? This question seemingly provide reasons of why we have more than 2.5 million questions unanswered on stack 
+                        overflow. In fact, at the first quater of this year, the number of unanswered questions stood at around 1.9 million.
+                        But now, we're having more than 2.5 million, that's a tremendous growth and if this growth continues, stack overflow
+                        may begin to fail in it's purpose. 
+                    </p>
+                </div>
+            </div>
+
+            <div style="padding:20px" class="container">
+                <div class="row justify-content-center">
+                    <img id="experience" src="{%static 'img/graphs/stat_experience.png'%}" alt="">
+                </div>
+            </div>
+
+            <div style="padding-left:30px; padding-top:50px; padding-right:30px; font-weight:bold" class="container">
+                <div class="row align-items-center justify-content-start">
+                    <p style="color:black; font-size:20px" class="wow fadeInUp"> 
+                        The ever changing and rapidly evolving situation of today's technologies in software development leaves quite a numver
+                        of answers on stack overflow obsolete, whereas more people try to get into software development day by day. Not finding 
+                        answers to bothering questions leaves learners fustrated and could slow the rate of learning, if not crush it. Experienced
+                        developers perhaps, need to pay more attention on giving back to communities like stack overflow to better the future of
+                        upcoming beginners.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--/ breakdown  -->
+
+
+    <!-- blog posts  -->
+    <!-- div class="portfolio_image_area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center mb-90">
+                        <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Featured Works</h3>
+                        <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Tour function information without cross action media value quickly maximize timely deliverables.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-12">
+                    <div class="single_service text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                        <div class="portfolio_thumb">
+                            <img src="{% static 'img/build4sdg/womentrends.jpg" alt="">
+                        </div>
+                        <div class="portfolio_hover">
+                            <div class="title">
+                                <span>Blog</span>
+                                    <h3>Women Trends in Software Development</h3>
+                                    <a class="boxed-btn3" href="portfolio_details.html">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_service text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="portfolio_thumb">
+                            <img src="{% static 'img/build4sdg/coding.jpg" alt="">
+                        </div>
+                        <div class="portfolio_hover">
+                            <div class="title">
+                                <span>Blog</span>
+                                    <h3>Popular Coding Languages</h3>
+                                    <a class="boxed-btn3" href="portfolio_details.html">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-lg-4">
+                    <div class="single_service text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div class="portfolio_thumb">
+                            <img src="{% static 'img/portfolio/3.png" alt="">
+                        </div>
+                        <div class="portfolio_hover">
+                            <div class="title">
+                                <span>Blog</span>
+                                    <h3>Lorem ipsum dolor</h3>
+                                    <a class="boxed-btn3" href="portfolio_details.html">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-lg-4">
+                    <div class="single_service text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                        <div class="portfolio_thumb">
+                            <img src="{% static 'img/portfolio/4.png" alt="">
+                        </div>
+                        <div class="portfolio_hover">
+                            <div class="title">
+                                <span>Blog</span>
+                                    <h3>Lorem ipsum dolor</h3>
+                                    <a class="boxed-btn3" href="portfolio_details.html">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-lg-4">
+                    <div class="single_service text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
+                        <div class="portfolio_thumb">
+                            <img src="{% static 'img/portfolio/5.png" alt="">
+                        </div>
+                        <div class="portfolio_hover">
+                            <div class="title">
+                                <span>Blog</span>
+                                    <h3>Lorem ipsum dolor</h3>
+                                    <a class="boxed-btn3" href="portfolio_details.html">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div -->
+    <!--/ blog posts  -->
+
+
+    <!-- team_member_start -->
+    <!-- <div class="team_area ">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center mb-90">
+                        <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Our Creative Team</h3>
+                        <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Tour function information without cross action media value quickly maximize timely deliverables.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                        <div class="team_thumb">
+                            <img src="img/team/1.png" alt="">
+                            <div class="team_hover">
+                                <div class="hover_inner text-center">
+                                    <ul>
+                                        <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
+                                        <li><a href="#"> <i class="fa fa-twitter"></i> </a></li>
+                                        <li><a href="#"> <i class="fa fa-instagram"></i> </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team_title text-center">
+                            <h3>Brandon Yeald</h3>
+                            <p>Founder & CEO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="team_thumb">
+                            <img src="img/team/2.png" alt="">
+                            <div class="team_hover">
+                                <div class="hover_inner text-center">
+                                    <ul>
+                                        <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
+                                        <li><a href="#"> <i class="fa fa-linkedin"></i> </a></li>
+                                        <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team_title text-center">
+                            <h3>Calvin Anderson</h3>
+                            <p>Graphics Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                        <div class="team_thumb">
+                            <img src="img/team/3.png" alt="">
+                            <div class="team_hover">
+                                <div class="hover_inner text-center">
+                                    <ul>
+                                        <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
+                                        <li><a href="#"> <i class="fa fa-linkedin"></i> </a></li>
+                                        <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team_title text-center">
+                            <h3>Roman Solo</h3>
+                            <p>Wordpress Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+                        <div class="team_thumb">
+                            <img src="img/team/4.png" alt="">
+                            <div class="team_hover">
+                                <div class="hover_inner text-center">
+                                    <ul>
+                                        <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
+                                        <li><a href="#"> <i class="fa fa-linkedin"></i> </a></li>
+                                        <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team_title text-center">
+                            <h3>Yeald Kin</h3>
+                            <p>Software Engineer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!--/ team_member_end -->
+
+        <!-- additional -->
+        <div class="team_area ">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section_title text-center mb-90">
+                            <h3 style="color: rgb(102, 51, 0)" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Coming soon are...</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6" style="text-align: center;">
+                        <div class="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                            <div class="team_thumb">
+                                <img style="border-radius: 250px; height: 180px; width:180px; left: 230px;" src="{% static 'img/build4sdg/wifi.png' %}" alt="">
+                                <div class="team_hover">
+                                    <div class="hover_inner text-center">
+                                    <a href="#" class="boxed-btn3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">Explore</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team_title text-center">
+                                <h3 style="color: rgb(102, 51, 0)">Free WiFi Centers</h3>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" style="text-align: center;">
+                        <div class="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                            <div class="team_thumb">
+                                <img style="border-radius: 250px; height: 180px; width:180px;  left: 230px;" src="{% static 'img/build4sdg/gps.png' %}" alt="">
+                                <div class="team_hover">
+                                    <div class="hover_inner text-center">
+                                        <a href="#" class="boxed-btn3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">Explore</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team_title text-center">
+                                <h3 style="color: rgb(102, 51, 0)">Nearby Hubs</h3>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" style="text-align: center;">
+                        <div class="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                            <div class="team_thumb" >
+                                <img  style="border-radius: 250px; height: 180px; width:180px; left: 230px; " src="{% static 'img/build4sdg/book.png' %}" alt="">
+                                <div class="team_hover">
+                                    <div class="hover_inner text-center"> 
+                                        <a href="#" class="boxed-btn3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">Explore</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team_title text-center">
+                                <h3 style="color: rgb(102, 51, 0)">Available Scholarships/Programs</h3>
+                                
+                            </div>
+                        </div>
+                    </div>
+               
+                </div>
+            </div>
+        </div>
+        <!--/ additional -->
+    <!-- testimonial_area  -->
+    <!-- div class="testimonial_area ">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="testmonial_active owl-carousel">
+                        <div class="single_carousel">
+                                <div class="single_testmonial text-center">
+                                        <div class="quote">
+                                            <img src="{% static 'img/testmonial/quote.svg" alt="">
+                                        </div>
+                                        <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor <br> 
+                                                sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.  <br>
+                                                Fusce ac mattis nulla. Morbi eget ornare dui. </p>
+                                        <div class="testmonial_author">
+                                            <div class="thumb">
+                                                    <img src="{% static 'img/testmonial/thumb.png" alt="">
+                                            </div>
+                                            <h3>Robert Thomson</h3>
+                                            <span>Business Owner</span>
+                                        </div>
+                                    </div>
+                        </div>
+                        <div class="single_carousel">
+                                <div class="single_testmonial text-center">
+                                        <div class="quote">
+                                            <img src="{% static 'img/testmonial/quote.svg" alt="">
+                                        </div>
+                                        <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor <br> 
+                                                sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.  <br>
+                                                Fusce ac mattis nulla. Morbi eget ornare dui. </p>
+                                        <div class="testmonial_author">
+                                            <div class="thumb">
+                                                    <img src="{% static 'img/testmonial/thumb.png" alt="">
+                                            </div>
+                                            <h3>Robert Thomson</h3>
+                                            <span>Business Owner</span>
+                                        </div>
+                                    </div>
+                        </div>
+                        <div class="single_carousel">
+                                <div class="single_testmonial text-center">
+                                        <div class="quote">
+                                            <img src="{% static 'img/testmonial/quote.svg' %}" alt="">
+                                        </div>
+                                        <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor <br> 
+                                                sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.  <br>
+                                                Fusce ac mattis nulla. Morbi eget ornare dui. </p>
+                                        <div class="testmonial_author">
+                                            <div class="thumb">
+                                                    <img src="{% static 'img/testmonial/thumb.png' %}" alt="">
+                                            </div>
+                                            <h3>Robert Thomson</h3>
+                                            <span>Business Owner</span>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div -->
+    <!-- /testimonial_area  -->
+
+    <div style="padding-top:0px;" data-scroll-index="0" class="get_in_tauch_area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div style="height:80px" class="col-lg-6">
+                    <div class="section_title text-center mb-90">
+                        <h3 style="color: rgb(102, 51, 0)" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" id="getInTouch">Get in Touch</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="touch_form">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                                        <input type="text" placeholder="Your Name" >
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                                        <input type="email" placeholder="Email" >
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                        <input type="email" placeholder="Subject" >
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                                       <textarea name="" id="" cols="30" placeholder="Message" rows="10"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div  class="submit_btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
+                                        <button style="background-color: rgb(102, 51, 0)" class="boxed-btn3" type="submit">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endblock %}
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-2 col-md-3">
+                        <div class="footer_logo wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
+                            <a href="index.html">
+                                <img style="    height: 45px;
+                                width: inherit;" src="{% static 'img/build4sdg/logo.JPG' %}" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-9">
+                        <div class="menu_links">
+                            <ul>
+                                <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".2s" href="#">About</a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s"></li>
+                                <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".4s" href="#">Services</a></li>
+                                <!-- <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".6s" href="#">Portfolio</a></li> -->
+                                <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".6s" href="#">Pages</a></li>
+                                <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="8s" href="#">Blog</a></li>
+                                <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s" href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12">
+                        <div class="socail_links">
+                            <ul>
+                                <li><a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" href="#"> <i class="fa fa-facebook"></i> </a></li>
+                                <li><a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s" href="#"> <i class="fa fa-twitter"></i> </a></li>
+                                <li><a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s" href="#"> <i class="fa fa-instagram"></i> </a></li>
+                                <li><a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s" href="#"> <i class="fa fa-google-plus"></i> </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.3s">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> | Team 106
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/ footer end  -->
+
+    <!-- JS here -->
+    <script src="static/jsvendor/modernizr-3.5.0.min.js"></script>
+    <script src="static/jsvendor/jquery-1.12.4.min.js"></script>
+    <script src="static/jspopper.min.js"></script>
+    <script src="static/jsbootstrap.min.js"></script>
+    <script src="static/jsowl.carousel.min.js"></script>
+    <script src="static/jsisotope.pkgd.min.js"></script>
+    <script src="static/jsajax-form.js"></script>
+    <script src="static/jswaypoints.min.js"></script>
+    <script src="static/jsjquery.counterup.min.js"></script>
+    <script src="static/jsimagesloaded.pkgd.min.js"></script>
+    <script src="static/jsscrollIt.js"></script>
+    <script src="static/jsjquery.scrollUp.min.js"></script>
+    <script src="static/jswow.min.js"></script>
+    <script src="static/jsnice-select.min.js"></script>
+    <script src="static/jsjquery.slicknav.min.js"></script>
+    <script src="static/jsjquery.magnific-popup.min.js"></script>
+    <script src="static/jsplugins.js"></script>
+    <script src="static/jsgijgo.min.js"></script>
+
+    <!--contact js-->
+    <script src="static/jscontact.js"></script>
+    <script src="static/jsjquery.ajaxchimp.min.js"></script>
+    <script src="static/jsjquery.form.js"></script>
+    <script src="static/jsjquery.validate.min.js"></script>
+    <script src="static/jsmail-script.js"></script>
+
+    <script src="static/jsmain.js"></script>
+</body>
+
+</html>
