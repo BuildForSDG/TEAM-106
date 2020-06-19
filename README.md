@@ -103,20 +103,8 @@ You should have **Python 3.5+** and **git** installed.
     This will install pytest for running tests and flake8, linter for your project.
 
 
-5. if you are working on frontend, to test your react app run:
-    ``
-    yarn start
-    `` 
 
-6. else if you are working on backend, to test your django app integration with frontend, run:
-    &nbsp;
-    First generate a build by running:
-    ``
-    yarn build
-    `` 
-    &nbsp;
-
-    Next, activate the virtualenv by running:
+6. Next, activate the virtualenv by running:
     ``
     poetry shell
     ``
