@@ -23,24 +23,8 @@ Just to mention a few.
 HOW DO WE GET THE DATA? This idea is all based on the concept of “being online”. We believe that all developers available in the country will in one way or the other be online (say registered on a popular platform like LinkedIn, Github, Upwork, among others) and we can therefore, build powerful web scrapers to get their data or most likely partner with these platforms to get the data we need. We won’t be needing personal data like email addresses, home addresses, phone numbers, and with this, we think getting the required data won’t be so difficult and won’t violate rights.
 
 ## WAYS TO ACCOMPLISH THIS
-We create an app that has a list of things.
+We created an app that has a list of things.
 <ul>
-<<<<<<< HEAD
-    <li> - [x] Add Header</li>
-    <li> - [x] Add About Us</li>
-    <li> - [x] Add Overall report</li>
-    <li> - [x] Add breakdown of Labour Fource
-        <ul>
-            <li> - [x] Add Countries </li>
-            <li> - [x] Add Skillset</li>
-            <li> - [ ] Add CS Background</li>
-            <li> - [x] Add Years of Experience</li>
-            <li> - [x] Add Employment Status</li>
-        </ul>
-    </li>
-    <li> - [ ] Add others</li>
-    <li> - [x] Add Footer</li>
-=======
     <li>Data on the current labour force in the software development sector.</li>
     <li>A breakdown of this labour force by states, institutions.</li>
     <li>Coding languages by state.</li>
@@ -54,7 +38,6 @@ We create an app that has a list of things.
     <li>Average developer age by state, country.</li>
     <li>A Graph meaningful relationships on all points stated above.</li>
     <li>Useful information for developers like free wifi centers, nearby hubs, latest programs/scholarships, etc.</li>
->>>>>>> ead68d1ac0ab0c959493794d4db31692d07fdd7d
 </ul>
 
 ## About
