@@ -26,7 +26,7 @@ SECRET_KEY = '^dv@l)b@1og0j758w#*xiry5-r5exum$frg3u0r(%x&wwkv&zb'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'devdatadjango.herokuapp.com',
+    'devsdata.herokuapp.com/',
     'localhost'
 ]
 

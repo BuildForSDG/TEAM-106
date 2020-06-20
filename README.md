@@ -2,6 +2,7 @@ A one-liner phrase describing this project or app
 
 [![Codacy Badge](https://img.shields.io/badge/Code%20Quality-D-red)](https://img.shields.io/badge/Code%20Quality-D-red)
 
+Check out the built app at https://devsdata.herokuapp.com/
 
 ## To-do
 &nbsp;
@@ -104,7 +105,7 @@ You should have **Python 3.5+** and **git** installed.
 
 
 
-6. Next, activate the virtualenv by running:
+5. Next, activate the virtualenv by running:
     ``
     poetry shell
     ``
