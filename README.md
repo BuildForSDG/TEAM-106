@@ -4,10 +4,28 @@ A one-liner phrase describing this project or app
 
 Check out the built app at https://devsdata.herokuapp.com/
 
-## To-do
+## DEVSDATA
 &nbsp;
 
+## PROJECT NAME
+PATHERNERSHIP FOR THE GOALS
+
+## PROBLEM
+DEVELOP A SOLUTION PLATFORM TO HELP THE AVAILABILITY OF HIGH-QUALITY, TIMELY AND RELIABLE DATA RELEVANT TO AID NATIONAL STATISTICAL PLANNING
+
+## SOLUTION
+In national planning, adequate data of all sectors of the economy is needed. The idea is to pick the technological sector and build a solution to provide relevant and timely data to aid further planning (by relevant bodies including the government and others) on this sector and given the tremendous growth in Nigeria’s IT industry and current trends in the world, planning is but crucial.
+WHAT SOLUTION EXACTLY DO WE PROVIDE? A platform that shows the amount of tech persons we have in the country, not just the amount but also a more in depth breakdown into how many (web-developers, java developers, .net developers, python developers, cloud Engineers, Network Security expert, and the likes ,e.t.c) and very meaningful relationships. This data is just the starting point, with more to come. With this, the government would be able to plan for the future occurrences like: 
+1.What Scholarships in software development do we need to provide to the youths e.g Let’s say we have a lot of (web developers) and as a country / globally we need more (Cloud Engineers) the government can then offer more of Cloud Engineering scholarships to help meet up such needs.
+2.What programs can we organise to orientate the (IT sector/industry), that is where our (App/website) comes in they could get the data they need from our site and see what they need to do and where to place their focus on.
+Just to mention a few.
+
+HOW DO WE GET THE DATA? This idea is all based on the concept of “being online”. We believe that all developers available in the country will in one way or the other be online (say registered on a popular platform like LinkedIn, Github, Upwork, among others) and we can therefore, build powerful web scrapers to get their data or most likely partner with these platforms to get the data we need. We won’t be needing personal data like email addresses, home addresses, phone numbers, and with this, we think getting the required data won’t be so difficult and won’t violate rights.
+
+## WAYS TO ACCOMPLISH THIS
+We create an app that has a list of things.
 <ul>
+<<<<<<< HEAD
     <li> - [x] Add Header</li>
     <li> - [x] Add About Us</li>
     <li> - [x] Add Overall report</li>
@@ -22,8 +40,22 @@ Check out the built app at https://devsdata.herokuapp.com/
     </li>
     <li> - [ ] Add others</li>
     <li> - [x] Add Footer</li>
+=======
+    <li>Data on the current labour force in the software development sector.</li>
+    <li>A breakdown of this labour force by states, institutions.</li>
+    <li>Coding languages by state.</li>
+    <li>Developers by skill sets.</li>
+    <li>Women Trends in software development.</li>
+    <li>Developers with bachelor’s degrees.</li>
+    <li>Developers with CS background by state</li>
+    <li>Developers with tech-related background.</li>
+    <li>Developers by years of experience.</li>
+    <li>Developers looking for jobs.</li>
+    <li>Average developer age by state, country.</li>
+    <li>A Graph meaningful relationships on all points stated above.</li>
+    <li>Useful information for developers like free wifi centers, nearby hubs, latest programs/scholarships, etc.</li>
+>>>>>>> ead68d1ac0ab0c959493794d4db31692d07fdd7d
 </ul>
-
 
 ## About
 
